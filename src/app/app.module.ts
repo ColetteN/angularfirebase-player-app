@@ -8,10 +8,18 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { environment } from '../environments/environment';
+import { AddStudentComponent } from './add-student/add-student.component';
+import { AddPlayerComponent } from './add-player/add-player.component';
+import { EditPlayerComponent } from './edit-player/edit-player.component';
+import { PlayerListComponent } from './player-list/player-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddStudentComponent,
+    AddPlayerComponent,
+    EditPlayerComponent,
+    PlayerListComponent
   ],
   imports: [
     BrowserModule,
